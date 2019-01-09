@@ -1,0 +1,130 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 80px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .navigation-tabs {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      list-style-type: none;
+      padding: 16px 0;
+      margin: 0;
+
+      > li {
+
+        &:nth-of-type(n + 2) {
+          @media only screen and (max-width: 900px) {
+            display: none;
+          }
+        }
+
+        &:before {
+          content: "";
+          height: 3px;
+          width: 3px;
+        }
+
+        > a {
+          position: relative;
+          cursor: pointer;
+          font-size: 15px;
+          color: #666;
+          margin-left: 35px;
+          text-decoration: none;
+
+          &.active {
+            color: #00a3c8;
+          }
+
+          &:hover {
+            color: #00a3c8;
+          }
+        }
+      }
+
+      > li:first-of-type {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        padding-left: 45px;
+
+        a {
+          margin-left: 0;
+        }
+
+        &:before {
+          position: absolute;
+          content: "";
+          top: 6px;
+          left: 0;
+          bottom: 0;
+          width: 40px;
+          height: 40px;
+          background-image: url('../img/svg/snake.svg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 40px;
+        }
+
+        h1 {
+          font-size: 26px;
+          margin: 0;
+          color: #00a3c8;
+
+          span {
+            color: #333;
+          }
+        }
+
+        p {
+          margin: 0 0 -9px;
+          color: gray;
+        }
+      }
+
+      .dropdown {
+        position: absolute;
+        display: none;
+        transition: all .4s ease-in-out;
+        padding: 0;
+        right: 0;
+        margin: 0;
+        top: calc(100%);
+        background: #fff;
+        white-space: nowrap;
+        border: 1px solid #eee;
+        z-index: 1;
+
+        li {
+          padding: 5px 10px;
+          cursor: pointer;
+          font-size: 15px;
+          color: #666;
+
+          &:hover {
+            background: #00a3c8;
+            color: #fff;
+          }
+        }  
+      }
+
+      .contact-dropdown {
+        position: relative;
+      }
+
+      .contact-dropdown:hover {
+
+        .dropdown {
+          display: block; 
+        }
+      }
+    }
+  }
+}
