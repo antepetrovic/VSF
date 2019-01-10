@@ -185,4 +185,30 @@ main {
     //   width: 50%;
     // }
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    input {
+      margin-bottom: 10px;
+      height: 40px;
+      outline: none;
+      font-size: 14px;
+      padding: 0 10px;
+    }
+
+    textarea {
+      border-color: #e0dede;
+      padding: 10px;
+      outline: none;
+      resize: none;
+      font-size: 14px;
+    }
+  }
 }

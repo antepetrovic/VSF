@@ -30,6 +30,16 @@
     padding:0;
     border-top: 1px solid rgba(255, 255, 255, 0.10);
 }
+
+.sidebarMenuInner .list-item {
+  padding: 20px 0;
+
+
+  ul {
+    padding: 0;
+  }
+}
+
 .sidebarMenuInner li{
   text-align: center;
   list-style: none;

@@ -31,9 +31,9 @@
           <li class="contact-dropdown">
             <a>Lokacije</a>
             <ul class="dropdown">
-              <li><a>Split(Interna medicina)</a></li>
-              <li><a>Split(Fizikalna terapija)</a></li>
-              <li><a href="./lokacije/vrgorac/usluge">Vrgorac</a></li>
+              <li><a href="./lokacije/split/usluge">Split(Interna medicina)</a></li>
+              <li><a href="./lokacije/split-falcon/usluge">Split(Fizikalna terapija)</a></li>
+              <li><a href="./lokacije/vrgorac/djelatnosti">Vrgorac</a></li>
             </ul>
           </li>
           <li><a>Fizikalna terapija</a></li>
@@ -42,8 +42,8 @@
           <li class="contact-dropdown">
             <a>Kontakt</a>
             <ul class="dropdown">
-              <li><a>Split(Interna medicina)</a></li>
-              <li><a>Split(Fizikalna terapija)</a></li>
+              <li><a href="./lokacije/split/kako_do_nas">Split(Interna medicina)</a></li>
+              <li><a href="./lokacije/split-falcon/kako_do_nas">Split(Fizikalna terapija)</a></li>
               <li><a href="./lokacije/vrgorac/kako_do_nas">Vrgorac</a></li>
             </ul>
           </li>
@@ -56,11 +56,15 @@
         </label>
         <div id="sidebarMenu">
             <ul class="sidebarMenuInner">
-              <li><a href="./lokacije/vrgorac/usluge" target="_blank">Lokacije</a></li>
-              <li><a href="" target="_blank">Instagram</a></li>
-              <li><a href="" target="_blank">Twitter</a></li>
-              <li><a href="" target="_blank">YouTube</a></li>
-              <li><a href="./lokacije/vrgorac/kako_do_nas" target="_blank">Linkedin</a></li>
+              <li id='lokacija'>LOKACIJE</li>
+              <li class='lokacije'><a href='lokacije/split/oprema'>Split (Medicina rada)</a></li>
+              <li class='lokacije'><a href='lokacije/split-falcon/oprema'>Split (Falcon Peregrin)</a></li>
+              <li class='lokacije'><a href='lokacije/vrgorac/djelatnosti'>Vrgorac</a></li>
+              <li><a href="">Laboratorij</a></li>
+              <li><a href="">Fizikalna terapija</a></li>
+              <li><a href="">Interna medicina</a></li>
+              <li><a href="">Laboratorij</a></li>
+              <li><a href="">Kontakt</a></li>
             </ul>
           </div>
       </div>
@@ -69,11 +73,13 @@
   <main>
     <div class="slide-show">
       <div class="container">
-        <div class="images">
-          <img class="mySlides" src="src/img/img1.jpg"/>
-          <img class="mySlides" src="src/img/img2.jpg"/>
-          <img class="mySlides" src="src/img/img3.jpg"/>
-        </div>  
+        <div id="slider">
+          <figure>
+            <img src="src/img/img1.jpg" alt>
+            <img src="src/img/img2.jpg" alt>
+            <img src="src/img/img3.jpg" alt>
+          </figure>
+        </div>
         <div class="cubes">
           <div>
             <h5><a>DIJAGNOSTIKA</a></h5>
@@ -93,5 +99,6 @@
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="src/js/main.js"/></script>
+  <script src="src/js/sideMenu.js"/></script>
 </body>
 </html>

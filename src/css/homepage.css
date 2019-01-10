@@ -135,6 +135,8 @@
   white-space: nowrap;
   border: 1px solid #eee;
   z-index: 1;
+  box-shadow: 0px 3px 13px 1px rgba(0, 0, 0, 0.51);
+  border: none;
 }
 .navigation .container .navigation-tabs .dropdown li {
   padding: 5px 10px;
@@ -185,6 +187,13 @@
   margin: 75px 0 0;
   padding: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebarMenuInner .list-item {
+  padding: 20px 0;
+}
+.sidebarMenuInner .list-item ul {
+  padding: 0;
 }
 
 .sidebarMenuInner li {
@@ -326,6 +335,63 @@ body li {
 .slide-show .container img {
   width: 100%;
 }
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  33% {
+    left: 0%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -100%;
+  }
+  66% {
+    left: -100%;
+  }
+  75% {
+    left: -200%;
+  }
+  95% {
+    left: -200%;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@keyframes slidyTop {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 25%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+.slide-show .container #slider {
+  overflow: hidden;
+  position: relative;
+}
+.slide-show .container #slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+.slide-show .container #slider figure img {
+  width: 20%;
+  float: left;
+}
 .slide-show .container .cubes {
   display: flex;
   flex-wrap: wrap;
@@ -334,6 +400,7 @@ body li {
   height: 170px;
   position: absolute;
   left: 0;
+  top: 100%;
 }
 .slide-show .container .cubes > div {
   width: 100%;
