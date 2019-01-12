@@ -210,5 +210,18 @@ main {
       resize: none;
       font-size: 14px;
     }
+
+    button {
+      border: none;
+      background: #00a3c8;
+      color: #fff;
+      font-size: 13px;
+      margin-top: 20px;
+      height: 40px;
+      width: 100px;
+      border-radius: 3px;
+      cursor: pointer;
+      outline: none;
+    }
   }
 }
