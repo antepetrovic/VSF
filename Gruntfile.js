@@ -10,6 +10,7 @@ module.exports = function(grunt) {
         files: {
           'src/css/homepage.css': 'src/scss/homepage.scss',
           'src/css/lokacije.css': 'src/scss/lokacije.scss',
+          'src/css/galerija.css': 'src/scss/galerija.scss'
         }
       }
     },

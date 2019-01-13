@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen" href="src/css/homepage.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../src/css/homepage.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../src/css/galerija.css" />
+  <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -23,10 +25,10 @@
       <div class="container">
         <ul class='navigation-tabs'>
           <li>
-            <a>
+            <a href="../">
               <p>POLIKLINIKA</p>
               <h1>PETROVIĆ<span></span></h1>
-            </a>  
+            </a> 
           </li>
           <li class="contact-dropdown">
             <a>Lokacije</a>
@@ -38,7 +40,7 @@
           </li>
           <li><a>Fizikalna terapija</a></li>
           <li><a>Interna medicina</a></li>
-          <li><a href="./galerija">Galerija</a></li>
+          <li><a>Galerija</a></li>
           <li class="contact-dropdown">
             <a>Kontakt</a>
             <ul class="dropdown">
@@ -63,7 +65,7 @@
               <li><a href="">Laboratorij</a></li>
               <li><a href="">Fizikalna terapija</a></li>
               <li><a href="">Interna medicina</a></li>
-              <li><a href="./galerija">Galerija</a></li>
+              <li><a href="">Laboratorij</a></li>
               <li><a href="">Kontakt</a></li>
             </ul>
           </div>
@@ -71,34 +73,17 @@
     </div>
   </header>
   <main>
-    <div class="slide-show">
-      <div class="container">
-        <div id="slider">
-          <figure>
-            <img src="src/img/img1.jpg" alt>
-            <img src="src/img/img2.jpg" alt>
-            <img src="src/img/img3.jpg" alt>
-          </figure>
-        </div>
-        <div class="cubes">
-          <div>
-            <h5><a>DIJAGNOSTIKA</a></h5>
-          </div>
-          <div>
-            <h5><a>KONTAKT</a></h5>
-          </div>
-          <div>
-            <h5><a>KVALIFICIRANI DOKTORI</a></h5>
-          </div>
-          <div>
-            <h5><a>FIZIKALNA TERAPIJA</a></h5>
-          </div>
-        </div>
-      </div>  
+    <div id="lightgallery">
     </div>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="src/js/main.js"/></script>
-  <script src="src/js/sideMenu.js"/></script>
+  <script src="../src/js/sideMenu.js"/></script>
+  <script src="../src/js/galerija.js"></script>
+  <script src="../src/js/lightGallery/lightgallery.min.js"></script>
+  <script src="../src/js/lightGallery/lg-thumbnail.min.js"></script>
+  <script src="../src/js/lightGallery/lg-fullscreen.min.js"></script>
+  <script>
+    lightGallery(document.getElementById('lightgallery'))
+  </script>
 </body>
 </html>
