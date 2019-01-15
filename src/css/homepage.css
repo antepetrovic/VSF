@@ -410,7 +410,8 @@ body li {
   left: 0;
   top: 100%;
 }
-.slide-show .container .cubes > div {
+.slide-show .container .cubes > a {
+  cursor: pointer;
   width: 100%;
   height: 170px;
   position: relative;
@@ -419,42 +420,40 @@ body li {
   background-position: center top 30px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .slide-show .container .cubes > div {
+  .slide-show .container .cubes > a {
     width: calc(100% / 2);
     height: 200px;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .slide-show .container .cubes > div {
+  .slide-show .container .cubes > a {
     width: calc(100% / 4);
     height: 200px;
   }
 }
-.slide-show .container .cubes > div h5 {
+.slide-show .container .cubes > a h5 {
   text-align: center;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 10px;
-}
-.slide-show .container .cubes > div h5 a {
   font-size: 16px;
   color: #fff;
 }
-.slide-show .container .cubes > div:first-of-type {
+.slide-show .container .cubes > a:first-of-type {
   background-color: #02A3C8;
   background-size: 70px;
   background-image: url("../img/svg/stethoscope.svg");
 }
-.slide-show .container .cubes > div:nth-of-type(2) {
+.slide-show .container .cubes > a:nth-of-type(2) {
   background-color: #0297B9;
   background-image: url("../img/svg/chat.svg");
 }
-.slide-show .container .cubes > div:nth-of-type(3) {
+.slide-show .container .cubes > a:nth-of-type(3) {
   background-color: #018EAF;
   background-image: url("../img/svg/doctor.svg");
 }
-.slide-show .container .cubes > div:last-of-type {
+.slide-show .container .cubes > a:last-of-type {
   background-color: #0186A4;
   background-image: url("../img/svg/heart.svg");
 }
