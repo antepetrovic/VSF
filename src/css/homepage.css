@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 0 15px;
 }
 .social-contact .container a {
   cursor: pointer;
@@ -55,13 +56,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 0 15px;
 }
 .navigation .container .navigation-tabs {
   display: flex;
   align-items: center;
   width: 100%;
   list-style-type: none;
-  padding: 16px 0;
+  padding: 15px 0;
   margin: 0;
 }
 @media only screen and (max-width: 900px) {
@@ -323,7 +325,6 @@ body {
 body .container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 body * {
@@ -404,9 +405,8 @@ body li {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1170px;
+  max-width: 1200px;
   height: 170px;
-  position: absolute;
   left: 0;
   top: 100%;
 }

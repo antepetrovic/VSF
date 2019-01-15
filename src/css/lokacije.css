@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 0 15px;
 }
 .social-contact .container a {
   cursor: pointer;
@@ -56,13 +57,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 0 15px;
 }
 .navigation .container .navigation-tabs {
   display: flex;
   align-items: center;
   width: 100%;
   list-style-type: none;
-  padding: 16px 0;
+  padding: 15px 0;
   margin: 0;
 }
 @media only screen and (max-width: 900px) {
@@ -324,7 +326,6 @@ body {
 body .container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 body * {
@@ -593,15 +594,10 @@ body li {
   position: relative;
   width: 100%;
   height: 250px;
-  background-image: url("../img/img3.jpg");
+  background-image: url("../img/img4.jpg");
   background-size: cover;
-  background-position: center 0;
+  background-position: center center;
   background-repeat: no-repeat;
-}
-@media only screen and (min-width: 1024px) {
-  .parallax {
-    background-size: 50%;
-  }
 }
 .parallax:before {
   background: rgba(17, 17, 17, 0.5) none repeat scroll 0 0;
