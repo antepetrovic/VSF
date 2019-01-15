@@ -31,15 +31,15 @@
           <li class="contact-dropdown">
             <a>Lokacije</a>
             <ul class="dropdown">
-              <li><a>Split (Medicina rada)</a></li>
-              <li><a href="../../../lokacije/split-falcon/djelatnosti">Split(Falcon Peregrin)</a></li>
-              <li><a href="../../../lokacije/split/djelatnosti">Vrgorac</a></li>
+              <li><a href="../../../lokacije/split/djelatnosti">Split (Medicina rada))</a></li>
+              <li><a href="../../../lokacije/split-falcon/djelatnosti">Split (Falcon Peregrin)</a></li>
+              <li><a>Vrgorac</a></li>
             </ul>
           </li>
-          <li><a>Fizikalna terapija</a></li>
-          <li><a>Interna medicina</a></li>
-          <li><a>Laboratorij</a></a></li>
-          <li><a>Kontakt</a></li>
+          <li><a href="../../split-falcon/djelatnosti">Fizikalna terapija</a></li>
+          <li><a href="../djelatnosti">Interna medicina</a></li>
+          <li><a href="../../../galerija">Galerija</a></a></li>
+          <li><a href="../laboratorij">Laboratorij</a></li>
         </ul>
         <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
         <label for="openSidebarMenu" class="sidebarIconToggle">
@@ -50,14 +50,14 @@
         <div id="sidebarMenu">
             <ul class="sidebarMenuInner">
               <li id='lokacija'>LOKACIJE</li>
-              <li class='lokacije'><a href=''>Split (Medicina rada)</a></li>
+              <li class='lokacije'><a href='../../split/djelatnosti'>Split (Medicina rada)</a></li>
               <li class='lokacije'><a href='../../split-falcon/djelatnosti'>Split (Falcon Peregrin)</a></li>
-              <li class='lokacije'><a href='../../vrgorac/djelatnosti'>Vrgorac</a></li>
-              <li><a href="">Laboratorij</a></li>
-              <li><a href="">Fizikalna terapija</a></li>
-              <li><a href="">Interna medicina</a></li>
-              <li><a href="">Laboratorij</a></li>
-              <li><a href="">Kontakt</a></li>
+              <li class='lokacije'><a href=''>Vrgorac</a></li>
+              <li><a href="../../../galerija">Galerija</a></li>
+              <li><a href="../../split-falcon/djelatnosti">Fizikalna terapija</a></li>
+              <li><a href="../djelatnosti">Interna medicina</a></li>
+              <li><a href="../../../galerija">Galerija</a></li>
+              <li><a href="../laboratorij">Laboratorij</a></li>
             </ul>
           </div>
       </div>
@@ -65,49 +65,27 @@
   </header>
   <main>
     <div class="parallax">
-
     </div>
     <div class="content">
       <div class="left-side">
-        <h3>Oprema</h3>
-        <button class="accordion">Section 1</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        
-        <button class="accordion">Section 2</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        
-        <button class="accordion">Section 3</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="accordion">Section 3</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="accordion">Section 4</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="accordion">Section 5</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="accordion">Section 6</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+        <h3>Dogovorite pregled</h3>
+        <form name="contact" data-netlify="true">
+          <label>Ime i Prezime:</label>
+          <input id="name" type="text" name="name">
+          <label>Email:</label>
+          <input id="email" type="email" name="email">
+          <label>Vaša poruka:</label>
+          <textarea name="message" rows="20" maxlength="600"></textarea>
+          <button type="submit">Pošalji</button>
+        </form>
       </div>
       <div class="right-side">
         <div class="location">
           <h3>Split (Medicina rada)</h3>
           <ul>
             <li><a href="../djelatnosti">Djelatnosti</a></li>
-            <li class="active"><a>Oprema</a></li>
             <li><a href="../kako_do_nas">Kako do nas</a></li>
+            <li class="active"><a>Dogovorite pregled</a></li>
           </ul>
         </div>
         <div class="info-box">
