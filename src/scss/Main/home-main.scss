@@ -18,16 +18,11 @@
       95% { left: -200%; }
       100% { left: -200%; }
     }
-
-    @keyframes slidyTop {
-      0% { top: 0; }
-      50% { top: 25%; }
-      100% { top: 50%; }
-    }
       
      #slider {
       overflow: hidden;
       position: relative;
+      max-height: 500px;
 
       figure {
         position: relative;

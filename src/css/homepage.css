@@ -373,20 +373,10 @@ body li {
     left: -200%;
   }
 }
-@keyframes slidyTop {
-  0% {
-    top: 0;
-  }
-  50% {
-    top: 25%;
-  }
-  100% {
-    top: 50%;
-  }
-}
 .slide-show .container #slider {
   overflow: hidden;
   position: relative;
+  max-height: 500px;
 }
 .slide-show .container #slider figure {
   position: relative;
