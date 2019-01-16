@@ -408,6 +408,7 @@ body li {
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center top 30px;
+  transition: all 0.2s ease;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .slide-show .container .cubes > a {
@@ -432,7 +433,6 @@ body li {
 }
 .slide-show .container .cubes > a:first-of-type {
   background-color: #02A3C8;
-  background-size: 70px;
   background-image: url("../img/svg/stethoscope.svg");
 }
 .slide-show .container .cubes > a:nth-of-type(2) {
@@ -446,4 +446,8 @@ body li {
 .slide-show .container .cubes > a:last-of-type {
   background-color: #0186A4;
   background-image: url("../img/svg/heart.svg");
+}
+.slide-show .container .cubes > a:hover {
+  background-size: 73px;
+  opacity: 0.8;
 }

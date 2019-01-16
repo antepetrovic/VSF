@@ -1,8 +1,8 @@
 function addImages () {
-  for(let i = 1; i < 29; i++) {
+  for(let i = 1; i < 28; i++) {
     $('#lightgallery').append(
     `<a href="../src/img/falcon-slike/${i}.jpg">
-      <img src="../src/img/falcon-thumbnails/${i}.jpg" />
+      <img class="grow" src="../src/img/falcon-thumbnails/${i}.jpg" />
     </a>`)
   }
 }
