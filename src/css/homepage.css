@@ -128,7 +128,7 @@
 .navigation .container .navigation-tabs .dropdown {
   position: absolute;
   display: none;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   padding: 0;
   right: 0;
   margin: 0;
@@ -231,7 +231,7 @@
   text-decoration: none;
 }
 
-input[type=checkbox]:checked ~ #sidebarMenu {
+input[type="checkbox"]:checked ~ #sidebarMenu {
   transform: translateX(0);
 }
 
@@ -408,7 +408,7 @@ body li {
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center top 30px;
-  transition: all 0.2s ease;
+  transition: all .2s ease;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .slide-show .container .cubes > a {
@@ -449,5 +449,7 @@ body li {
 }
 .slide-show .container .cubes > a:hover {
   background-size: 73px;
-  opacity: 0.8;
+  opacity: .8;
 }
+
+/*# sourceMappingURL=homepage.css.map */

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 .social-contact {
   width: 100%;
@@ -129,7 +128,7 @@
 .navigation .container .navigation-tabs .dropdown {
   position: absolute;
   display: none;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   padding: 0;
   right: 0;
   margin: 0;
@@ -232,7 +231,7 @@
   text-decoration: none;
 }
 
-input[type=checkbox]:checked ~ #sidebarMenu {
+input[type="checkbox"]:checked ~ #sidebarMenu {
   transform: translateX(0);
 }
 
@@ -555,14 +554,14 @@ body li {
   margin-bottom: 2px;
 }
 .accordion.active:after {
-  content: "−";
+  content: "\2212";
 }
 .accordion.active, .accordion.accordion:hover {
   background-color: #ccc;
 }
 
 .accordion:after {
-  content: "+";
+  content: '\002B';
   color: #777;
   font-weight: bold;
   float: right;
@@ -619,6 +618,7 @@ footer .container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0 15px;
 }
 footer .col {
   display: flex;
@@ -680,7 +680,7 @@ footer .col-1 .text {
 }
 footer h5 {
   position: relative;
-  letter-spacing: 0.5px;
+  letter-spacing: .5px;
   margin-top: 0;
 }
 footer h5:after {
@@ -722,3 +722,5 @@ footer a:nth-of-type(4) {
 footer a:nth-of-type(5) {
   background-image: url("../img/svg/blue-icons/location.svg");
 }
+
+/*# sourceMappingURL=lokacije.css.map */
