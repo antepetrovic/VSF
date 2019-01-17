@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 .social-contact {
   width: 100%;
@@ -128,7 +129,7 @@
 .navigation .container .navigation-tabs .dropdown {
   position: absolute;
   display: none;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   padding: 0;
   right: 0;
   margin: 0;
@@ -152,6 +153,21 @@
 }
 .navigation .container .navigation-tabs .contact-dropdown {
   position: relative;
+}
+@media only screen and (min-width: 901px) {
+  .navigation .container .navigation-tabs .contact-dropdown:before {
+    content: "\a";
+    position: absolute;
+    right: 10px;
+    height: 0;
+    width: 0;
+    right: -13px;
+    top: 9px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #666;
+    cursor: pointer;
+  }
 }
 .navigation .container .navigation-tabs .contact-dropdown:hover .dropdown {
   display: block;
@@ -231,7 +247,7 @@
   text-decoration: none;
 }
 
-input[type="checkbox"]:checked ~ #sidebarMenu {
+input[type=checkbox]:checked ~ #sidebarMenu {
   transform: translateX(0);
 }
 
@@ -554,14 +570,14 @@ body li {
   margin-bottom: 2px;
 }
 .accordion.active:after {
-  content: "\2212";
+  content: "−";
 }
 .accordion.active, .accordion.accordion:hover {
   background-color: #ccc;
 }
 
 .accordion:after {
-  content: '\002B';
+  content: "+";
   color: #777;
   font-weight: bold;
   float: right;
@@ -680,7 +696,7 @@ footer .col-1 .text {
 }
 footer h5 {
   position: relative;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin-top: 0;
 }
 footer h5:after {
@@ -722,5 +738,3 @@ footer a:nth-of-type(4) {
 footer a:nth-of-type(5) {
   background-image: url("../img/svg/blue-icons/location.svg");
 }
-
-/*# sourceMappingURL=lokacije.css.map */

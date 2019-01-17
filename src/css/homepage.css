@@ -128,7 +128,7 @@
 .navigation .container .navigation-tabs .dropdown {
   position: absolute;
   display: none;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   padding: 0;
   right: 0;
   margin: 0;
@@ -152,6 +152,21 @@
 }
 .navigation .container .navigation-tabs .contact-dropdown {
   position: relative;
+}
+@media only screen and (min-width: 901px) {
+  .navigation .container .navigation-tabs .contact-dropdown:before {
+    content: "\a";
+    position: absolute;
+    right: 10px;
+    height: 0;
+    width: 0;
+    right: -13px;
+    top: 9px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #666;
+    cursor: pointer;
+  }
 }
 .navigation .container .navigation-tabs .contact-dropdown:hover .dropdown {
   display: block;
@@ -231,7 +246,7 @@
   text-decoration: none;
 }
 
-input[type="checkbox"]:checked ~ #sidebarMenu {
+input[type=checkbox]:checked ~ #sidebarMenu {
   transform: translateX(0);
 }
 
@@ -408,7 +423,7 @@ body li {
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center top 30px;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .slide-show .container .cubes > a {
@@ -449,7 +464,5 @@ body li {
 }
 .slide-show .container .cubes > a:hover {
   background-size: 73px;
-  opacity: .8;
+  opacity: 0.8;
 }
-
-/*# sourceMappingURL=homepage.css.map */

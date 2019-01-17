@@ -69,7 +69,7 @@ footer .col-1 .text {
 }
 footer h5 {
   position: relative;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin-top: 0;
 }
 footer h5:after {
@@ -111,5 +111,3 @@ footer a:nth-of-type(4) {
 footer a:nth-of-type(5) {
   background-image: url("../img/svg/blue-icons/location.svg");
 }
-
-/*# sourceMappingURL=footer.css.map */

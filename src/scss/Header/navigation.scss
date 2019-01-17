@@ -120,6 +120,23 @@
 
       .contact-dropdown {
         position: relative;
+
+        &:before {
+
+          @media only screen and (min-width: 901px) {
+            content:"\A";
+            position: absolute;
+            right: 10px;
+            height: 0;
+            width: 0;
+            right: -13px;
+            top: 9px;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;      
+            border-top: 4px solid #666;
+            cursor: pointer;
+          }
+        }
       }
 
       .contact-dropdown:hover {
