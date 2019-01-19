@@ -1,4 +1,4 @@
-# robots.txt for http://www.apple.com/
+# robots.txt for https://poliklinikapetrovic.com/
 
 User-agent: *
 Disallow:
