@@ -213,6 +213,22 @@
   padding: 0;
 }
 
+.sidebarMenuInner #lokacija {
+  position: relative;
+}
+.sidebarMenuInner #lokacija:before {
+  content: "\a";
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: calc(50% + -50px);
+  top: 28px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #fff;
+  cursor: pointer;
+}
+
 .sidebarMenuInner .lokacije {
   background: #fff;
 }

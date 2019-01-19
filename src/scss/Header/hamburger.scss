@@ -40,6 +40,24 @@
   }
 }
 
+.sidebarMenuInner #lokacija {
+  position: relative;
+
+  &:before {
+    content: "\a";
+    position: absolute;
+    right: 10px;
+    height: 0;
+    width: 0;
+    right: -13px;
+    top: 9px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #666;
+    cursor: pointer;
+  }
+}
+
 .sidebarMenuInner .lokacije {
   background: #fff;
 }
