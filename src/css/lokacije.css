@@ -154,6 +154,15 @@
 .navigation .container .navigation-tabs .contact-dropdown {
   position: relative;
 }
+.navigation .container .navigation-tabs .contact-dropdown.contact-dropdown:hover > a {
+  color: #00a3c8;
+}
+.navigation .container .navigation-tabs .contact-dropdown:hover:before {
+  border-top: 4px solid #00a3c8;
+}
+.navigation .container .navigation-tabs .contact-dropdown.rotate:before {
+  transform: rotate(180deg);
+}
 @media only screen and (min-width: 901px) {
   .navigation .container .navigation-tabs .contact-dropdown:before {
     content: "\a";
@@ -167,6 +176,7 @@
     border-right: 4px solid transparent;
     border-top: 4px solid #666;
     cursor: pointer;
+    transition: all 0.4s;
   }
 }
 .navigation .container .navigation-tabs .contact-dropdown:hover .dropdown {
@@ -217,18 +227,22 @@
 .sidebarMenuInner #lokacija {
   position: relative;
 }
+.sidebarMenuInner #lokacija.rotate:before {
+  transform: rotate(180deg);
+}
 .sidebarMenuInner #lokacija:before {
   content: "\a";
+  content: "\a";
   position: absolute;
-  right: 10px;
   height: 0;
   width: 0;
-  right: -13px;
-  top: 9px;
+  right: calc(50% + -50px);
+  top: 28px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #666;
+  border-top: 4px solid #fff;
   cursor: pointer;
+  transition: all 0.4s;
 }
 
 .sidebarMenuInner .lokacije {

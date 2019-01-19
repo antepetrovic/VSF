@@ -121,6 +121,18 @@
       .contact-dropdown {
         position: relative;
 
+        &.contact-dropdown:hover > a {
+          color: #00a3c8;
+        }
+
+        &:hover:before {
+          border-top: 4px solid #00a3c8;
+        }
+
+        &.rotate:before {
+          transform: rotate(180deg);
+        }
+
         &:before {
 
           @media only screen and (min-width: 901px) {
@@ -135,6 +147,7 @@
             border-right: 4px solid transparent;      
             border-top: 4px solid #666;
             cursor: pointer;
+            transition: all .4s;
           }
         }
       }

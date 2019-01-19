@@ -12,3 +12,7 @@ function carousel() {
   $(x[index - 1]).fadeToggle('slow');
   setTimeout(carousel, 8000);
 }
+
+$( '.contact-dropdown' ).hover(function() {
+  $('.contact-dropdown').toggleClass("rotate");
+});
