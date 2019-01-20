@@ -3,6 +3,9 @@ function addImages () {
     $('#lightgallery').append(
     `<a href="../src/img/falcon-slike/${i}.jpg">
       <img class="grow" src="../src/img/falcon-thumbnails/${i}.jpg" />
+      <div class="poster">
+      
+      </div>
     </a>`)
   }
 }
