@@ -417,7 +417,7 @@ body li {
 .info-box {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  max-width: 360px;
   box-sizing: border-box;
   padding: 30px;
   border: 10px solid #eee;
@@ -455,6 +455,11 @@ body li {
   background-size: 14px;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 380px) {
+  .info-box .row.contact a {
+    font-size: 14px;
+  }
+}
 .info-box .row.contact a:nth-of-type(1) {
   background-image: url("../img/svg/blue-icons/phone.svg");
 }
@@ -478,7 +483,7 @@ body li {
 }
 
 .location {
-  width: 360px;
+  max-width: 360px;
   margin-bottom: 40px;
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) {
