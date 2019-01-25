@@ -398,6 +398,10 @@ body li {
   }
 }
 
+.content.appointment {
+  max-width: 1000px;
+}
+
 .right-side {
   margin-left: auto;
 }
@@ -566,6 +570,7 @@ body li {
   margin-bottom: 10px;
 }
 .left-side form input {
+  border: 1px solid #e0dede;
   margin-bottom: 10px;
   height: 40px;
   outline: none;
@@ -573,7 +578,7 @@ body li {
   padding: 0 10px;
 }
 .left-side form textarea {
-  border-color: #e0dede;
+  border: 1px solid #e0dede;
   padding: 10px;
   outline: none;
   resize: none;

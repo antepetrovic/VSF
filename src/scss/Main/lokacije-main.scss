@@ -14,6 +14,10 @@ main {
   } 
 }
 
+.content.appointment {
+  max-width: 1000px;
+}
+
 .right-side {
   margin-left: auto;
 
@@ -200,6 +204,7 @@ main {
     }
 
     input {
+      border: 1px solid #e0dede;
       margin-bottom: 10px;
       height: 40px;
       outline: none;
@@ -208,7 +213,7 @@ main {
     }
 
     textarea {
-      border-color: #e0dede;
+      border: 1px solid #e0dede;
       padding: 10px;
       outline: none;
       resize: none;
