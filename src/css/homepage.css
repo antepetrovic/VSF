@@ -30,20 +30,29 @@
   background-repeat: no-repeat;
   background-size: 14px;
 }
-.social-contact .container a:nth-of-type(1) {
+.social-contact .container a.facebook {
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+  background-image: url("../img/svg/facebook.svg");
+}
+.social-contact .container a.instagram {
   padding: 0;
   height: 20px;
   width: 20px;
   margin: 0 auto 0 0;
-  background-image: url("../img/svg/facebook.svg");
+  background-size: 15px;
+  background-image: url("../img/svg/instagram.svg");
 }
-.social-contact .container a:nth-of-type(2) {
+.social-contact .container a.phone {
   background-image: url("../img/svg/phone.svg");
+  margin-left: auto;
 }
-.social-contact .container a:nth-of-type(3) {
+.social-contact .container a.work-hours {
   background-image: url("../img/svg/clock.svg");
 }
-.social-contact .container a:nth-of-type(4) {
+.social-contact .container a.email {
   background-image: url("../img/svg/mail.svg");
 }
 
