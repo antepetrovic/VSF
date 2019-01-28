@@ -504,11 +504,12 @@ body li {
     margin-right: 30px;
   }
 }
-.location h3 {
+.location h2 {
   position: relative;
   color: #333;
+  font-size: 18px;
 }
-.location h3:after {
+.location h2:after {
   bottom: -10px;
   content: "";
   height: 2px;
