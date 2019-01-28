@@ -477,12 +477,12 @@ body li {
     height: 200px;
   }
 }
-.slide-show .container .cubes > a h5 {
+.slide-show .container .cubes > a h2 {
   text-align: center;
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 10px;
+  bottom: 20px;
   font-size: 16px;
   color: #fff;
 }
