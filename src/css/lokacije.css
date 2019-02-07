@@ -765,7 +765,7 @@ footer .col-1 .text {
 footer h5 {
   position: relative;
   letter-spacing: 0.5px;
-  margin-top: 0;
+  margin: 0 0 35px;
 }
 footer h5:after {
   bottom: -10px;
