@@ -1,44 +1,32 @@
 .slide-show {
 
   .container {
-    position:relative;
-
-    img {
-      width: 100%;
-    }
 
     @keyframes slidy {
-      0% { left: 0%; }
-      20% { left: 0%; }
-      33% { left: 0%; }
-      45% { left: -100%; }
-      50% { left: -100%; }
-      66% { left: -100%; }
-      75% { left: -200%; }
-      95% { left: -200%; }
-      100% { left: -200%; }
+      0% { background-image: url('../img/img1.jpg')}
+      30% { background-image: url('../img/img1.jpg')}
+      33% { background-image: url('../img/img2.jpg')}
+      60% { background-image: url('../img/img2.jpg')}
+      66% { background-image: url('../img/img3.jpg')}
+      100% { background-image: url('../img/img3.jpg')}
     }
       
      #slider {
+      height: 50vh;
       overflow: hidden;
       position: relative;
       max-height: 500px;
+      backface-visibility: hidden;
+      background-size: cover;
+      background-position: 50% 30%;
+      animation: slidy 20s linear infinite;
+      
 
-      figure {
-        position: relative;
-        width: 500%;
-        margin: 0;
-        left: 0;
-        text-align: left;
-        font-size: 0;
-        animation: 30s slidy infinite;
-
-        img {
-          width: 20%;
-          float: left;
-        }
+      @media only screen and (min-width: 768px) {
+        background-position: 0 30%;
+        height: 100vh;
       }
-     }
+    }
 
     .cubes {
       display: flex;
@@ -46,7 +34,6 @@
       width: 100%;
       max-width: 1200px;
       height: 170px;
-      // position: absolute;
       left: 0;
       top: 100%;
 
