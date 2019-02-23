@@ -634,6 +634,9 @@ body li {
   font-weight: 400;
   transition: 0.4s;
 }
+.accordion.medicina-rada:after, .accordion.medicina-rada.active:after {
+  content: "";
+}
 .accordion.active:after {
   content: "−";
 }
@@ -655,6 +658,9 @@ body li {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+.panel.medicina-rada {
+  max-height: none;
 }
 .panel p {
   font-size: 15px;

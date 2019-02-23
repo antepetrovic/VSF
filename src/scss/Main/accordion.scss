@@ -11,6 +11,11 @@
   font-size: 15px;
   font-weight: 400;
   transition: 0.4s;
+
+  &.medicina-rada:after,
+  &.medicina-rada.active:after {
+    content: '';
+  }
   
 
   &.active:after {
@@ -38,6 +43,10 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+
+  &.medicina-rada {
+    max-height: none;
+  }
 
   p {
     font-size: 15px;
