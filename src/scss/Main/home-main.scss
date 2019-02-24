@@ -26,6 +26,11 @@
         background-position: 0 30%;
         height: 100vh;
       }
+
+      @media only screen and (min-height: 800px) {
+        height: 65vh;
+        max-height: none;
+      }
     }
 
     .cubes {

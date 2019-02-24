@@ -435,6 +435,11 @@ body li {
   padding: 30px;
   border: 10px solid #eee;
 }
+@media only screen and (max-width: 370px) {
+  .info-box {
+    padding: 20px 7px;
+  }
+}
 .info-box h3 {
   font-size: 16px;
   font-weight: 700;
