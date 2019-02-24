@@ -17,6 +17,10 @@
     padding-right: 40px;
   }
 
+  &.medicina-rada {
+    margin-bottom: 0;
+  }
+
   &.medicina-rada:after,
   &.medicina-rada.active:after {
     content: '';
@@ -59,9 +63,15 @@
 
   &.medicina-rada {
     max-height: none;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 163, 200, .5), rgba(0, 163, 200, .4));
 
-    li {
-      margin-bottom: 5px;
+    ul {
+      margin-top: 0;
+      
+      li {
+        margin-bottom: 5px;
+      }
     }
   }
 
@@ -82,7 +92,6 @@
     &.cjenik {
       padding: 10px;
       margin-top: 0;
-      background-image: linear-gradient(rgba(0, 163, 200, .5), rgba(0, 163, 200, .4));
 
       li {
         display: flex;

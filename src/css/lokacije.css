@@ -640,6 +640,9 @@ body li {
     padding-right: 40px;
   }
 }
+.accordion.medicina-rada {
+  margin-bottom: 0;
+}
 .accordion.medicina-rada:after, .accordion.medicina-rada.active:after {
   content: "";
 }
@@ -678,8 +681,13 @@ body li {
 }
 .panel.medicina-rada {
   max-height: none;
+  padding: 10px;
+  background-image: linear-gradient(rgba(0, 163, 200, 0.5), rgba(0, 163, 200, 0.4));
 }
-.panel.medicina-rada li {
+.panel.medicina-rada ul {
+  margin-top: 0;
+}
+.panel.medicina-rada ul li {
   margin-bottom: 5px;
 }
 .panel.medicina-rada.cjenik {
@@ -697,7 +705,6 @@ body li {
 .panel ul.cjenik {
   padding: 10px;
   margin-top: 0;
-  background-image: linear-gradient(rgba(0, 163, 200, 0.5), rgba(0, 163, 200, 0.4));
 }
 .panel ul.cjenik li {
   display: flex;
