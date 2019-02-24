@@ -662,6 +662,9 @@ body li {
 .panel.medicina-rada {
   max-height: none;
 }
+.panel.medicina-rada li {
+  margin-bottom: 5px;
+}
 .panel p {
   font-size: 15px;
   font-weight: 300;
