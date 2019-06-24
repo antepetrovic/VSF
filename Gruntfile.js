@@ -12,6 +12,7 @@ module.exports = function(grunt) {
           'src/css/lokacije.css': 'src/scss/lokacije.scss',
           'src/css/galerija.css': 'src/scss/galerija.scss',
           'src/css/footer.css'  : 'src/scss/Footer/footer.scss',
+          'src/css/contact.css'  : 'src/scss/contact.scss',
         }
       }
     },

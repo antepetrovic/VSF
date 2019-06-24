@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 .social-contact {
   width: 100%;
@@ -138,7 +137,7 @@
 .navigation .container .navigation-tabs .dropdown {
   position: absolute;
   display: none;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   padding: 0;
   right: 0;
   margin: 0;
@@ -174,7 +173,7 @@
 }
 @media only screen and (min-width: 901px) {
   .navigation .container .navigation-tabs .contact-dropdown:before {
-    content: "\a";
+    content: "\A";
     position: absolute;
     right: 10px;
     height: 0;
@@ -185,7 +184,7 @@
     border-right: 4px solid transparent;
     border-top: 4px solid #666;
     cursor: pointer;
-    transition: all 0.4s;
+    transition: all .4s;
   }
 }
 .navigation .container .navigation-tabs .contact-dropdown:hover .dropdown {
@@ -251,7 +250,7 @@
   border-right: 4px solid transparent;
   border-top: 4px solid #fff;
   cursor: pointer;
-  transition: all 0.4s;
+  transition: all .4s;
 }
 
 .sidebarMenuInner .lokacije {
@@ -287,7 +286,7 @@
   text-decoration: none;
 }
 
-input[type=checkbox]:checked ~ #sidebarMenu {
+input[type="checkbox"]:checked ~ #sidebarMenu {
   transform: translateX(0);
 }
 
@@ -587,7 +586,7 @@ body li {
 }
 .left-side iframe {
   width: 100%;
-  height: 400px;
+  height: 375px;
 }
 .left-side form {
   display: flex;
@@ -649,17 +648,17 @@ body li {
   margin-bottom: 0;
 }
 .accordion.medicina-rada:after, .accordion.medicina-rada.active:after {
-  content: "";
+  content: '';
 }
 .accordion.active:after {
-  content: "−";
+  content: "\2212";
 }
 .accordion.active, .accordion.accordion:hover {
   background-color: #ccc;
 }
 
 .accordion:after {
-  content: "+";
+  content: '\002B';
   color: #777;
   font-weight: bold;
   float: right;
@@ -820,7 +819,7 @@ footer .col-1 .text {
 }
 footer h5 {
   position: relative;
-  letter-spacing: 0.5px;
+  letter-spacing: .5px;
   margin: 0 0 35px;
 }
 footer h5:after {
@@ -872,3 +871,5 @@ footer a.email {
 footer a.address {
   background-image: url("../img/svg/blue-icons/location.svg");
 }
+
+/*# sourceMappingURL=lokacije.css.map */
