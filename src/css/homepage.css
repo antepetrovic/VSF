@@ -393,6 +393,13 @@ body li {
   list-style-type: none;
 }
 
+#homepage-header .container {
+  max-width: 1400px;
+}
+
+.slide-show .container {
+  max-width: 1400px;
+}
 @keyframes slidy {
   0% {
     background-image: url("../img/img1.jpg");
@@ -443,6 +450,11 @@ body li {
   height: 170px;
   left: 0;
   top: 100%;
+}
+@media only screen and (min-width: 1200px) {
+  .slide-show .container .cubes {
+    max-width: 1400px;
+  }
 }
 .slide-show .container .cubes > a {
   cursor: pointer;
