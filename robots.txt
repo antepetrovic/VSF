@@ -1,6 +1,0 @@
-# robots.txt for https://poliklinikapetrovic.com/
-
-User-agent: *
-Disallow:
-
-Sitemap: https://poliklinikapetrovic.com/sitemap.xml
