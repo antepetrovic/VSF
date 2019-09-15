@@ -393,6 +393,22 @@ body li {
   list-style-type: none;
 }
 
+@keyframes opacity-full {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacity-09 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .9;
+  }
+}
 #homepage-header .container {
   max-width: 1400px;
 }
@@ -400,27 +416,8 @@ body li {
 .slide-show .container {
   max-width: 1400px;
 }
-@keyframes slidy {
-  0% {
-    background-image: url("../img/img1.jpg");
-  }
-  30% {
-    background-image: url("../img/img1.jpg");
-  }
-  33% {
-    background-image: url("../img/img2.jpg");
-  }
-  60% {
-    background-image: url("../img/img2.jpg");
-  }
-  66% {
-    background-image: url("../img/img3.jpg");
-  }
-  100% {
-    background-image: url("../img/img3.jpg");
-  }
-}
 .slide-show .container #slider {
+  opacity: 0;
   height: 50vh;
   overflow: hidden;
   position: relative;
@@ -428,7 +425,65 @@ body li {
   backface-visibility: hidden;
   background-size: cover;
   background-position: 50% 30%;
-  animation: slidy 20s linear infinite;
+  background-image: url("../img/img1.jpg");
+  animation: opacity-full 1s linear forwards;
+}
+.slide-show .container #slider .content {
+  opacity: 0;
+  display: inline-block;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 5px;
+  top: 30%;
+  left: 10%;
+  background: #ffffff;
+  animation: opacity-09 1s linear 1s forwards;
+}
+@media only screen and (max-width: 768px) {
+  .slide-show .container #slider .content {
+    top: 10%;
+    left: 5%;
+  }
+}
+.slide-show .container #slider .content h3 {
+  margin-top: 5px;
+  color: #2ca6d9;
+}
+.slide-show .container #slider .content ul {
+  padding-left: 20px;
+  list-style-type: circle;
+}
+.slide-show .container #slider .content ul li {
+  opacity: 0;
+  color: #505050;
+  list-style-type: circle;
+  animation: opacity-full 1s linear forwards;
+}
+.slide-show .container #slider .content ul li.item-1 {
+  animation-delay: 2.4s;
+}
+.slide-show .container #slider .content ul li.item-2 {
+  animation-delay: 2.8s;
+}
+.slide-show .container #slider .content ul li.item-3 {
+  animation-delay: 3.2s;
+}
+.slide-show .container #slider .content ul li.item-4 {
+  animation-delay: 3.6s;
+}
+.slide-show .container #slider .content ul li.item-5 {
+  animation-delay: 4s;
+}
+.slide-show .container #slider .content a {
+  background: #2ca6d9;
+  color: #fff;
+  padding: 0 8px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: opacity-full .6s linear 4.4s forwards;
+}
+.slide-show .container #slider .content a:first-of-type {
+  margin-right: 5px;
 }
 @media only screen and (min-width: 768px) {
   .slide-show .container #slider {
