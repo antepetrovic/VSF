@@ -13,12 +13,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/medicina-rada-i-sporta/djelatnosti/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://poliklinikapetrovic.com/kontakt/</loc>
     <lastmod>2019-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -55,25 +49,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/medicina-rada-i-sporta/dokumentacija/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://poliklinikapetrovic.com/lokacije/split-falcon-peregrin/kako-do-nas/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/medicina-rada-i-sporta/kako-do-nas/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/medicina-rada-i-sporta/cjenik/</loc>
     <lastmod>2019-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
