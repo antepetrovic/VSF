@@ -7,7 +7,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/vrgorac/laboratorij/</loc>
+    <loc>https://poliklinikapetrovic.com/laboratorij/</loc>
     <lastmod>2019-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -19,39 +19,9 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poliklinikapetrovic.com/galerija/</loc>
+    <loc>https://poliklinikapetrovic.com/djelatnosti/</loc>
     <lastmod>2019-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/vrgorac/djelatnosti/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/split-falcon-peregrin/djelatnosti/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/vrgorac/kako-do-nas/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/split-falcon-peregrin/izokinetika/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/lokacije/split-falcon-peregrin/kako-do-nas/</loc>
-    <lastmod>2019-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
   </url>
 </urlset>
