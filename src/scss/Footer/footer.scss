@@ -5,7 +5,6 @@ footer {
 
   .container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 15px;
   }
@@ -34,7 +33,6 @@ footer {
 
   .col-1 {
     padding-right: 40px;
-    margin-right: auto;
 
     .title {
       position: relative;
