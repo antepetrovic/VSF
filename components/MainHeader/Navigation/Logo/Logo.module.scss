@@ -1,0 +1,31 @@
+.logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: auto;
+  color: #fff;
+}
+
+.companyName {
+  font-size: 15px;
+  font-weight: 700;
+  width: 173px;
+  text-decoration: none;
+  color: #444;
+  margin-left: 15px;
+
+  p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 19px;
+    color: #666;
+    font-weight: 400;
+  }
+
+  span {
+    margin: 0;
+    color: #00a3c8;
+    line-height: 22px;
+    font-size: 22px;
+  }
+}

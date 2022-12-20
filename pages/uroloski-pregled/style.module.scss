@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: auto;
+  padding: 60px 15px 0;
+  font-family: 'Open Sans', sans-serif;
+
+  @media only screen and (max-width: 767px) {
+    padding: 0;
+  }
+}
+
+.subwrapper {
+  display: flex;
+  flex-direction: column;
+  width: 67.6666%;
+  font-family: 'Roboto', sans-serif;
+
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+    padding: 0 25px;
+    margin-top: 30px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  p {
+    margin: 20px 0 0;
+  }
+}
+
+.text {
+  font-family: 'Roboto';
+  color: #0d3151;
+  font-size: 16px;
+  line-height: 28px;
+
+  b {
+    color: #e31739;
+    border-bottom: 2px solid #0d3151;
+  }
+}

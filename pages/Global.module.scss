@@ -1,0 +1,262 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1140px;
+  margin: auto;
+  padding: 60px 30px 0;
+
+  &.center {
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+    padding: 25px 25px 0 25px;
+  }
+}
+
+.subwrapper {
+  display: flex;
+  flex-direction: column;
+  width: 67.6666%;
+
+  &.contact {
+    @media only screen and (max-width: 1100px) {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  width: 100%;
+
+  &.smallMargin {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin: 25px 0 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.accordionWrapper {
+  margin-top: 40px;
+}
+.linkRed {
+  color: #0d3151 !important;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline !important;
+}
+
+.text {
+  color: #0d3151;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.ul {
+  padding-left: 18px;
+  color: #0d3151;
+  margin: 25px 0 0 10px;
+
+  li {
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
+}
+
+.cjenikList {
+  padding-left: 0;
+  color: #0d3151;
+  list-style: none;
+  margin-top: 60px;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    line-height: 26px;
+    border-top: 1px solid rgba(100,121,143,0.122);
+
+    @media only screen and (max-width: 767px) {
+      flex-direction: column;
+    }
+  
+
+    &:last-of-type {
+      border-bottom: 1px solid rgba(100,121,143,0.122);
+    }
+
+    span:last-of-type {
+      text-align: right;
+      min-width: 70px;
+      font-weight: bold;
+      margin-left: 30px;
+
+      @media only screen and (max-width: 767px) {
+        text-align: left;
+        margin-left: 0;
+      }
+    }
+
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #0d3151;
+  text-transform: uppercase;
+
+  &.centerTitle {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font-size: 24px;
+  }
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #0d3151;
+  text-transform: uppercase;
+
+  &.smallFont {
+    font-size: 18px;
+  }
+
+  &.marginTop {
+    margin-top: 25px;
+  }
+}
+
+.imagesDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  img {
+    width: 49%;
+    aspect-ratio: 600 / 400;
+  }
+}
+
+.table {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  td {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 14px;
+  }
+
+  td,
+  #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  th:first-of-type {
+    border-right: 1px solid #ddd;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #00b3cc;
+    color: white;
+  }
+}
+
+.homepageServicesTitle {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0;
+
+  @media only screen and (min-width: 1024px) {
+    padding-top: 60px;
+  }
+
+  .reference {
+    position: relative;
+    width: 100%;
+    height: 22px;
+    font-size: 16px;
+    text-align: center;
+    color: #555;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -14px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 2px;
+      width: 60px;
+      background: #00b3cc;
+    }
+  }
+
+  .headline {
+    width: 100%;
+    height: 53px;
+    text-align: center;
+    margin: 12px auto;
+    color: #00b3cc;
+
+    font-weight: 700;
+    font-size: 30px;
+
+    @media only screen and (min-width: 1024px) {
+      font-size: 40px;
+      height: 65px;
+    }
+  }
+}
+
+.visuallyHidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+}

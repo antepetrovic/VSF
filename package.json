@@ -1,28 +1,21 @@
 {
-  "name": "falcon-peregrin",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/antepetrovic/falcon-peregrin.git"
-  },
-  "author": "Ante Petrovic",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/antepetrovic/falcon-peregrin/issues"
-  },
-  "homepage": "https://github.com/antepetrovic/falcon-peregrin#readme",
-  "devDependencies": {
-    "grunt": "^1.5.3",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.1.0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
   },
   "dependencies": {
-    "lightgallery.js": "^1.1.2"
+    "install": "^0.13.0",
+    "next": "^12.3.2",
+    "npm": "^8.19.2",
+    "react": "17.0.2",
+    "react-cookie": "^4.1.1",
+    "react-dom": "17.0.2",
+    "sass": "^1.43.5"
+  },
+  "devDependencies": {
+    "prettier": "2.5.0"
   }
 }

@@ -1,0 +1,67 @@
+.infoItem {
+  display: flex;
+  height: 50px;
+  align-items: center;
+
+  // @media only screen and (max-width: 1200px) {
+  //   margin-left: 20px;
+  // }
+
+  // @media only screen and (max-width: 800px) {
+  //   display: none;
+  // }
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.location {
+  background: url('/svg/location.svg') no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+
+// .timeContainer {
+//   @media only screen and (max-width: 1023px) {
+//     display: none;
+//   }
+// }
+
+.time {
+  background: url('/svg/clock.svg') no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+
+.contact {
+  background: url('/svg/telephone.svg') no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  margin: 0;
+  color: #444;
+  text-decoration: none;
+}
+
+.first {
+  font-size: 13px;
+}
+
+.second {
+  font-size: 12px;
+}
+
+.indent {
+  margin-right: 20px;
+}
