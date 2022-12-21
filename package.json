@@ -7,6 +7,7 @@
     "export": "npm run build && next export"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.29.4",
     "install": "^0.13.0",
     "next": "^12.3.2",
     "npm": "^9.2.0",
