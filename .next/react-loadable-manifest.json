@@ -1,0 +1,33 @@
+{
+  "../components/MainHeader/index.js -> ./Navigation": {
+    "id": 603,
+    "files": [
+      "static/css/263cd27004284bd4.css",
+      "static/chunks/603.ca036da00dcfc82a.js"
+    ]
+  },
+  "../components/Services/index.js -> ./Service": {
+    "id": 4986,
+    "files": [
+      "static/css/413483087c9008ab.css",
+      "static/chunks/4986.598dcd1e834f6ebf.js"
+    ]
+  },
+  "index.js -> components/Head": {
+    "id": 2626,
+    "files": [
+      "static/chunks/2626.a6f1991baa0971c2.js"
+    ]
+  },
+  "index.js -> components/Services": {
+    "id": 3440,
+    "files": [
+      "static/css/c4ada82532a6eec5.css",
+      "static/chunks/3440.75d283a1706bf81e.js"
+    ]
+  },
+  "pretrage/cistoskopija/index.js -> components/Map": {
+    "id": 2446,
+    "files": []
+  }
+}
