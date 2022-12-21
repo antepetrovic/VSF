@@ -1,4 +1,4 @@
-import Head from 'components/Head'
+import Head from "components/Head";
 
 import {
   imagesDiv,
@@ -8,24 +8,24 @@ import {
   title,
   wrapper,
   ul,
-  subtitle
-} from 'pages/Global.module.scss'
-import SidePicker from 'components/UI/SidePicker'
+  subtitle,
+} from "pages/Global.module.scss";
+import SidePicker from "components/UI/SidePicker";
 
 const listaPregleda = [
   {
-    name: 'URODINAMIKA',
-    url: '/pretrage/urodinamika'
+    name: "URODINAMIKA",
+    url: "/pretrage/urodinamika",
   },
   {
-    name: 'MIKCIOMETRIJA',
-    url: '/pretrage/urodinamika/mikciometrija'
+    name: "MIKCIOMETRIJA",
+    url: "/pretrage/urodinamika/mikciometrija",
   },
   {
-    name: 'CISTOMETRIJA',
-    url: '/pretrage/urodinamika/cistometrija'
-  }
-]
+    name: "CISTOMETRIJA",
+    url: "/pretrage/urodinamika/cistometrija",
+  },
+];
 
 const Elektromiografija = () => {
   return (
@@ -72,33 +72,32 @@ const Elektromiografija = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              '@context': 'https://schema.org/',
-              '@type': 'Service',
-              serviceType: 'Elektromiografija sfinktera',
-              url: 'https://poliklinikapetrovic.hr/pretrage/urodinamika/elektromiografija-sfinktera',
+              "@context": "https://schema.org/",
+              "@type": "Service",
+              serviceType: "Elektromiografija sfinktera",
+              url: "https://poliklinikapetrovic.hr/pretrage/urodinamika/elektromiografija-sfinktera",
               description:
-                'U Poliklinici Petrović napravite urodinamsku pretragu Elektromiografiju sfinktera kojom mjerimo živčane impulse mišića mokraćnog mjehura i mokraćnoj cijevi. Pretraga nam otkriva povezanost neurološkog poremećaja sa problemom mokrenja',
+                "U Poliklinici Petrović napravite urodinamsku pretragu Elektromiografiju sfinktera kojom mjerimo živčane impulse mišića mokraćnog mjehura i mokraćnoj cijevi. Pretraga nam otkriva povezanost neurološkog poremećaja sa problemom mokrenja",
               provider: {
-                '@type': 'MedicalBusiness',
-                name: 'Poliklinika Petrović',
-                image:
-                  'https://poliklinikapetrovic.hr/images/img1.jpg',
-                priceRange: 'By Appointment',
-                telephone: '+38513776996',
-                hasMap: 'https://goo.gl/maps/syAWnYFwxPS3qnq67',
+                "@type": "MedicalBusiness",
+                name: "Poliklinika Petrović",
+                image: "https://poliklinikapetrovic.hr/images/img1.jpg",
+                priceRange: "By Appointment",
+                telephone: "+38513776996",
+                hasMap: "https://goo.gl/maps/syAWnYFwxPS3qnq67",
                 address: {
-                  streetAddress: 'Ulica Tina Ujevića 15',
-                  addressLocality: 'Vrgorac',
-                  addressRegion: 'Vrgorac',
-                  postalCode: '10000',
-                  addressCountry: 'HR'
-                }
-              }
-            })
+                  streetAddress: "Ulica Tina Ujevića 15",
+                  addressLocality: "Vrgorac",
+                  addressRegion: "Vrgorac",
+                  postalCode: "10000",
+                  addressCountry: "HR",
+                },
+              },
+            }),
           }}
         />
       </Head>
-      <div id={'main-container'}>
+      <div id={"main-container"}>
         <div className={wrapper}>
           <SidePicker list1={listaPregleda} title="UROLOGIJA" />
           <div className={subwrapper}>
@@ -106,25 +105,18 @@ const Elektromiografija = () => {
               <div className={content}>
                 <h1 className={title}>ELEKTROMIOGRAFIJA SFINKTERA</h1>
                 <p className={text}>
-                  Elektromiografija je pretraga kojom mjerimo živčane
-                  impulse mišića mokraćnog mjehura i mokraćnoj cijevi.
-                  Pretraga nam otkriva povezanost neurološkog
-                  poremećaja sa problemom mokrenja.
+                  Elektromiografija je pretraga kojom mjerimo živčane impulse
+                  mišića mokraćnog mjehura i mokraćnoj cijevi. Pretraga nam
+                  otkriva povezanost neurološkog poremećaja sa problemom
+                  mokrenja.
                 </p>
               </div>
-              <div className={content}>
-                <h2 className={subtitle}>
-                  CIJENA ELEKTROMIOGRAFIJE SFINKTERA
-                </h2>
-                <p className={text}>
-                  <b>Cijena</b> pretrage iznosi 1000 kn.
-                </p>
-              </div>
+
               <div className={imagesDiv}>
-                <img alt="urodinamika" src={'/images/img6.jpg'} />
+                <img alt="urodinamika" src={"/images/img6.jpg"} />
                 <img
                   alt="elektromiografija-sfinktera"
-                  src={'/images/img8.jpg'}
+                  src={"/images/img8.jpg"}
                 />
               </div>
             </div>
@@ -132,7 +124,7 @@ const Elektromiografija = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Elektromiografija
+export default Elektromiografija;

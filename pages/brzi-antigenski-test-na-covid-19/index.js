@@ -1,5 +1,5 @@
-import React from 'react'
-import Head from 'components/Head'
+import React from "react";
+import Head from "components/Head";
 import {
   subwrapper,
   content,
@@ -8,10 +8,10 @@ import {
   subtitle,
   wrapper,
   ul,
-  center
-} from 'pages/Global.module.scss'
-import { formWrapper, col, row } from 'pages/Form.module.scss'
-import SidePicker from 'components/UI/SidePicker'
+  center,
+} from "pages/Global.module.scss";
+import { formWrapper, col, row } from "pages/Form.module.scss";
+import SidePicker from "components/UI/SidePicker";
 
 const AntigenskiTest = () => {
   return (
@@ -46,51 +46,47 @@ const AntigenskiTest = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              '@context': 'https://schema.org/',
-              '@type': 'Service',
-              serviceType: 'Brzi antigenski test na covid-19',
-              url: 'https://poliklinikapetrovic.hr/brzi-antigenski-test-na-covid-19',
+              "@context": "https://schema.org/",
+              "@type": "Service",
+              serviceType: "Brzi antigenski test na covid-19",
+              url: "https://poliklinikapetrovic.hr/brzi-antigenski-test-na-covid-19",
               description:
-                'U Poliklinici Petrović možete napraviti testiranje na COVID-19 uz pomoć brzog antigenskog testa bez čekanja.',
+                "U Poliklinici Petrović možete napraviti testiranje na COVID-19 uz pomoć brzog antigenskog testa bez čekanja.",
               provider: {
-                '@type': 'MedicalBusiness',
-                name: 'Poliklinika Petrović',
-                image:
-                  'https://poliklinikapetrovic.hr/images/img7.jpg',
-                priceRange: 'By Appointment',
-                telephone: '+38513776996',
-                hasMap: 'https://goo.gl/maps/syAWnYFwxPS3qnq67',
+                "@type": "MedicalBusiness",
+                name: "Poliklinika Petrović",
+                image: "https://poliklinikapetrovic.hr/images/img7.jpg",
+                priceRange: "By Appointment",
+                telephone: "+38513776996",
+                hasMap: "https://goo.gl/maps/syAWnYFwxPS3qnq67",
                 address: {
-                  streetAddress: 'Ulica Tina Ujevića 15',
-                  addressLocality: 'Vrgorac',
-                  addressRegion: 'Vrgorac',
-                  postalCode: '10000',
-                  addressCountry: 'HR'
-                }
-              }
-            })
+                  streetAddress: "Ulica Tina Ujevića 15",
+                  addressLocality: "Vrgorac",
+                  addressRegion: "Vrgorac",
+                  postalCode: "10000",
+                  addressCountry: "HR",
+                },
+              },
+            }),
           }}
         />
       </Head>
-      <div id={'main-container'}>
+      <div id={"main-container"}>
         <div className={`${wrapper} ${center}`}>
           <div className={subwrapper}>
             <div className={content}>
-              <h1 className={title}>
-                Brzi Antigenski Test Na Covid-19
-              </h1>
+              <h1 className={title}>Brzi Antigenski Test Na Covid-19</h1>
               <p className={text}>
-                U Poliklinici Petrović možete obaviti testiranje na
-                COVID-19 uz pomoć brzog antigenskog testa. Testiranje
-                je odobreno od strane HZZO i nalazimo se na popisu{' '}
-                <b>certificiranih laboratorija</b> koji provode
-                testiranje na COVID-19. Testiranje se vrši uzimanjem
-                brisa nosa koji je bezbolan i traje par sekundi. EU
-                digitalnu potvrdu i nalaz možete dobiti na vaš email i
-                u papirnatom obliku.
+                U Poliklinici Petrović možete obaviti testiranje na COVID-19 uz
+                pomoć brzog antigenskog testa. Testiranje je odobreno od strane
+                HZZO i nalazimo se na popisu <b>certificiranih laboratorija</b>{" "}
+                koji provode testiranje na COVID-19. Testiranje se vrši
+                uzimanjem brisa nosa koji je bezbolan i traje par sekundi. EU
+                digitalnu potvrdu i nalaz možete dobiti na vaš email i u
+                papirnatom obliku.
               </p>
             </div>
-            <div className={content}>
+            {/* <div className={content}>
               <h2 className={subtitle}>
                 CIJENA BRZOG ANTIGENSKOG TESTIRANJA
               </h2>
@@ -103,29 +99,25 @@ const AntigenskiTest = () => {
                   <b>100 kn </b>( minimalno 10 testiranja )
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className={content}>
               <h2 className={subtitle}>VAŽNO</h2>
               <p className={text}>
-                Osobe koje imaju simptome i misle da bi mogle biti
-                zaražene sa COVID-19 molimo da nas kontaktiraju prije
-                dolaska kako bi bris uzeli ispred Poliklinike.
+                Osobe koje imaju simptome i misle da bi mogle biti zaražene sa
+                COVID-19 molimo da nas kontaktiraju prije dolaska kako bi bris
+                uzeli ispred Poliklinike.
               </p>
               <p className={text}>Kontaktirati nas možete:</p>
               <ul className={ul}>
                 <li>
-                  <a
-                    href={
-                      'https://www.facebook.com/PoliklinikaPetrovic/'
-                    }
-                  >
+                  <a href={"https://www.facebook.com/PoliklinikaPetrovic/"}>
                     Putem <b>Facebooka</b>
                   </a>
                 </li>
                 <a href="mailto:vrgorac@poliklinikapetrovic.com">
                   <li>
                     Mailom <b>vrgorac@poliklinikapetrovic.com</b>
-                  </li>{' '}
+                  </li>{" "}
                 </a>
                 <a href="tel:+38521674135">
                   <li>
@@ -150,7 +142,7 @@ const AntigenskiTest = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AntigenskiTest
+export default AntigenskiTest;
