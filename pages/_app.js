@@ -30,9 +30,10 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   const router = useRouter();
+  console.log(process.env.NODE_ENV);
   return (
     <>
-      {process.env.NODE_ENV === "production" && (
+      {process.env.NODE_ENV !== "development" && (
         <>
           <Script strategy="lazyOnload">
             {`((function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
