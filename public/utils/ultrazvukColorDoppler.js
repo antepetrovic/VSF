@@ -24,6 +24,10 @@ export const pretrageList = [
     url: '/pretrage/ultrazvuk-abdomena'
   },
   {
+    name: 'ULTRAZVUK MOKRAĆNOG MJEHURA',
+    url: '/pretrage/ultrazvuk-mokracnog-mjehura'
+  },
+  {
     name: 'ULTRAZVUK KAROTIDA',
     url: '/pretrage/doppler-ultrazvuk-karotida'
   },
