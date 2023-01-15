@@ -16,11 +16,7 @@ const oNama = () => {
     <div>
       <Head>
         <title>O nama | Poliklinika Petrović</title>
-        <meta
-          name="description"
-          content="Naš tim vode vrhunski stručnjaci dr. Alek Popović specijalist urolog, dr. Anita Marčinko specijalist neurolog, prof. dr. sc. Željko Petrović prim. dr. med. specijalit neurolog, prof. dr. sc. Ivan Mikula prim. dr. med. specijalit neurolog, prof. dr. sc. Branka Ribarić dr. med. specijalit neurolog,
-          prof. dr. sc. Damir Gortan prim. dr. med. specijalist orl, neurootolog, audiolog, prof. dr. sc. Pavle Miklić neurokirurg, prof. dr. sc. Dean Strinić internist kardiolog, prof. dr. sc. Josip Janković psiholog - psihoterapeut, prof. psihologije Anita Alegić Karin klinički psiholog, dr. med. Malnar Živko specijalist psihijatrije"
-        />
+        <meta name="description" content="" />
         <link
           rel="canonical"
           href="https://poliklinikapetrovic.hr/o-nama"
@@ -37,11 +33,7 @@ const oNama = () => {
           content="https://poliklinikapetrovic.hr/images/img4.jpg"
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:description"
-          content="Naš tim vode vrhunski stručnjaci prof. dr. sc. Željko Petrović prim. dr. med. specijalit neurolog, prof. dr. sc. Ivan Mikula prim. dr. med. specijalit neurolog, prof. dr. sc. Branka Ribarić dr. med. specijalit neurolog,
-          prof. dr. sc. Damir Gortan prim. dr. med. specijalist orl, neurootolog, audiolog, prof. dr. sc. Pavle Miklić neurokirurg, prof. dr. sc. Dean Strinić internist kardiolog, prof. dr. sc. Josip Janković psiholog - psihoterapeut, prof. psihologije Anita Alegić Karin klinički psiholog, dr. med. Malnar Živko specijalist psihijatrije"
-        />
+        <meta property="og:description" content="" />
         <meta
           property="og:url"
           content="https://poliklinikapetrovic.hr/o-nama"

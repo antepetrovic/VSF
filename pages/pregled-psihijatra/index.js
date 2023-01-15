@@ -24,7 +24,7 @@ const Psihijatrija = () => {
         </title>
         <meta
           name="description"
-          content="Napravite privatni psihijatrijski pregled u Poliklinici Petrović. Psihijatrijske preglede u našoj Poliklinici obavlja iskusni psihijatar dr. Živko Malnar. Psihijatrijski pregled se odvija kroz ugodan razgovor sa psihijatrom. Razgovora nije vremenski ograničen, već traje koliko to zahtijeva situacija."
+          content="Napravite privatni psihijatrijski pregled u Poliklinici Petrović. Psihijatrijski pregled se odvija kroz ugodan razgovor sa psihijatrom. Razgovora nije vremenski ograničen, već traje koliko to zahtijeva situacija."
         />
         <link
           rel="canonical"
@@ -40,7 +40,7 @@ const Psihijatrija = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="Napravite privatni psihijatrijski pregled u Poliklinici Petrović. Psihijatrijske preglede u našoj Poliklinici obavlja iskusni psihijatar dr. Živko Malnar. Psihijatrijski pregled se odvija kroz razgovor sa psihijatrom. Razgovora nije vremenski ograničen, već traje koliko to zahtijeva situacija."
+          content="Napravite privatni psihijatrijski pregled u Poliklinici Petrović. Psihijatrijski pregled se odvija kroz razgovor sa psihijatrom. Razgovora nije vremenski ograničen, već traje koliko to zahtijeva situacija."
         />
         <meta
           property="og:url"
@@ -56,7 +56,7 @@ const Psihijatrija = () => {
                 'Pregled psihijatra (psihijatrijski pregled)',
               url: 'https://poliklinikapetrovic.hr/pregled-psihijatra',
               description:
-                'Napravite privatni psihijatrijski pregled u Poliklinici Petrović. Psihijatrijske preglede u našoj Poliklinici obavlja iskusni psihijatar dr. Živko Malnar. Psihijatrijski pregled se odvija kroz razgovor sa psihijatrom. Razgovora nije vremenski ograničen, već traje koliko to zahtijeva situacija.',
+                'Napravite privatni psihijatrijski pregled u Poliklinici Petrović. Psihijatrijski pregled se odvija kroz razgovor sa psihijatrom. Razgovora nije vremenski ograničen, već traje koliko to zahtijeva situacija.',
               provider: {
                 '@type': 'MedicalBusiness',
                 name: 'Poliklinika Petrović',
@@ -95,16 +95,6 @@ const Psihijatrija = () => {
           <div className={subwrapper}>
             <div className={content}>
               <h1 className={title}>{pregledPsihijatra.title}</h1>
-              {/* <p>
-                Psihijatrijske preglede u našoj Poliklinici obavlja
-                iskusni psihijatar{' '}
-                <a
-                  className={linkRed}
-                  href={'/doktori/psihijatar/zivko-malnar'}
-                >
-                  dr. Živko Malnar
-                </a>{' '}
-              </p> */}
               <h2 className={`${subtitle} ${marginTop}`}>
                 PRVI RAZGOVOR SA PSIHIJATROM
               </h2>
