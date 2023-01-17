@@ -42,10 +42,8 @@ function Navigation() {
         <Link href="/laboratorij">
           <div className={[item].join(' ')}>Laboratorij</div>
         </Link>
-        <Link href="/brzi-antigenski-test-na-covid-19">
-          <div className={[item, dropdown].join(' ')}>
-            Antigensko testiranje
-          </div>
+        <Link href="/ultrazvuk-i-color-doppler">
+          <div className={[item, dropdown].join(' ')}>Ultrazvuk</div>
         </Link>
         <Link href="/o-nama">
           <a className={item}>O nama</a>
