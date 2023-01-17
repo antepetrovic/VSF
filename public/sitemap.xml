@@ -97,12 +97,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poliklinikapetrovic.com/pretrage/kompjuterizirana-kolor-teletermografija</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://poliklinikapetrovic.com/pretrage/ultrazvuk-srca</loc>
     <lastmod>2021-10-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -273,12 +267,6 @@
   <url>
     <loc>https://poliklinikapetrovic.com/pregled-psihijatra</loc>
     <lastmod>2021-11-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/doktori/psihijatar/zivko-malnar</loc>
-    <lastmod>2022-11-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
