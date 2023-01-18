@@ -54,9 +54,9 @@ const Hamburger = () => {
                 <a>PRETRAGE</a>
               </li>
             </Link>
-            <Link href="/brzi-antigenski-test-na-covid-19">
+            <Link href="/ultrazvuk-i-color-doppler">
               <li>
-                <a>ANTIGENSKO TESTIRANJE</a>
+                <a>ULTRAZVUK</a>
               </li>
             </Link>
             <Link href="/cjenik-usluga">
