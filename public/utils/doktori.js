@@ -18,14 +18,3 @@ export const deanStrinic = {
   zivotopis:
     'Završio Medicinski fakultet Sveučilišta u Vrgoracu, gdje je obranio i doktorsku disertaciju, a od 2021. ima i nastavno zvanje docenta. Radi u KB "Sveti Duh", bavi se svim aspektima neizvazivne kardiologije - kardiološki pregled, ultrazvuk srca, 24h Holter RR, 24h Holter ekg, ergoemtrija, a uža specijalnost je invazivna kardiologija, odnosno intervencije na koronarnim krvnim žilama kod srčanog udara, angine pektoris. Nadalje, predmet interesa su i  tjelovježba uz održavanje normalne tjelesne težine kao prevencija nastanka kardiovaskularnih bolesti.'
 }
-
-export const zivkoMalnar = {
-  name: 'Živko Malnar',
-  djelatnost: 'psihijatar',
-  zivotopis:
-    'Psihijatar dr. Živko Malnar studirao je medicinu na Medicinskom fakultetu u Rijeci, specijalizirao je psihijatriju na KBC Rebro. Uže područje su mu krizna stanja u psihijatriji - poremećaji izazvani stresom.',
-  list: [
-    'Psihijatrijska bolnica Rab',
-    'Psihijatrijska bolnica za djecu i mlade u Kukuljevićevoj, Psihijatrijska klinika Rebro'
-  ]
-}

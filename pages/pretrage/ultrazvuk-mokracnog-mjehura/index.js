@@ -27,13 +27,13 @@ const UltrazvukMjehura = () => {
         />
         <link
           rel="canonical"
-          href="https://poliklinika-grbavac.hr/pretrage/ultrazvuk-mokracnog-mjehura"
+          href="https://https://poliklinikapetrovic.com//pretrage/ultrazvuk-mokracnog-mjehura"
         ></link>
         <meta name="keywords" content="ultrazvuk mjehura" />
         <meta property="og:title" content="Ultrazvuk mjehura" />
         <meta
           property="og:image"
-          content="https://poliklinika-grbavac.hr/images/img4.jpg"
+          content="https://https://poliklinikapetrovic.com//images/img4.jpg"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -42,7 +42,7 @@ const UltrazvukMjehura = () => {
         />
         <meta
           property="og:url"
-          content="https://poliklinika-grbavac.hr/pretrage/ultrazvuk-mokracnog-mjehura"
+          content="https://https://poliklinikapetrovic.com//pretrage/ultrazvuk-mokracnog-mjehura"
         />
         <script
           type="application/ld+json"
@@ -51,21 +51,21 @@ const UltrazvukMjehura = () => {
               '@context': 'https://schema.org/',
               '@type': 'Service',
               serviceType: 'Ultrazvuk mokraćnog mjehura',
-              url: 'https://poliklinika-grbavac.hr/pretrage/ultrazvuk-mokracnog-mjehura',
+              url: 'https://https://poliklinikapetrovic.com//pretrage/ultrazvuk-mokracnog-mjehura',
               description:
                 'Napravite ultrazvuk mokraćnog mjehura ako imate krv u mokraći, otežano mokrenje, jak nagon za mokrenjem, bol tijekom mokrenja, problem s potpunim pražnjenjem mjehura.',
               provider: {
                 '@type': 'MedicalBusiness',
-                name: 'Poliklinika Grbavac',
+                name: 'Poliklinika Petrović',
                 image:
-                  'https://poliklinika-grbavac.hr/images/img7.jpg',
+                  'https://https://poliklinikapetrovic.com//images/img7.jpg',
                 priceRange: 'By Appointment',
                 telephone: '+38513776996',
                 hasMap: 'https://goo.gl/maps/syAWnYFwxPS3qnq67',
                 address: {
                   streetAddress: 'Trg Francuske republike 12',
-                  addressLocality: 'Zagreb',
-                  addressRegion: 'Zagreb',
+                  addressLocality: 'Vrgorac',
+                  addressRegion: 'Vrgorac',
                   postalCode: '10000',
                   addressCountry: 'HR'
                 }
@@ -81,7 +81,7 @@ const UltrazvukMjehura = () => {
               '@type': 'WebPage',
               name: 'Ultrazvuk mokracnog mjehura',
               datePublished: '2022-11-11',
-              url: 'https://poliklinika-grbavac.hr/pretrage/ultrazvuk-mokracnog-mjehura'
+              url: 'https://https://poliklinikapetrovic.com//pretrage/ultrazvuk-mokracnog-mjehura'
             })
           }}
         />

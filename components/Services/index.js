@@ -77,7 +77,7 @@ const Services = () => {
           img={`https://res.cloudinary.com/dngwfc7lf/image/upload/v1638523700/img3_ufhalc.jpg`}
           title={'IMUNOLOGIJA I REUMATOLOGIJA'}
           text={
-            'Imunološke preglede u našoj poliklinici obavlja dr. Vinka Vukosav. Reumatologija i imunologija su grane interne medicine koje se bave reumatskim bolestima, njihovim uzrocima, dijagnosticiranjem i liječenjem.'
+            'Reumatologija i imunologija su grane interne medicine koje se bave reumatskim bolestima, njihovim uzrocima, dijagnosticiranjem i liječenjem.'
           }
           pathName={'pregled-imunologa-reumatologa'}
         />

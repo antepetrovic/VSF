@@ -55,7 +55,7 @@ const Imunologija = () => {
               serviceType: 'Pregled reumatologa imunologa',
               url: 'https://poliklinikapetrovic.hr/pregled-imunologa-reumatologa',
               description:
-                'Imunološke i reumatološke preglede u našoj poliklinici obavlja dr. Vinka Vukosav.',
+                'Naručite se na pregled imunologa reumatologa. Kako se liječi reumatoidni artritis? Postavljanje dijagnoze reumatoidnog artritisa.',
               provider: {
                 '@type': 'MedicalBusiness',
                 name: 'Poliklinika Petrović',
@@ -83,10 +83,6 @@ const Imunologija = () => {
               <h1 className={title}>
                 pregled imunologa reumatologa:
               </h1>
-              <p className={text}>
-                Imunološke i reumatološke preglede u našoj poliklinici
-                obavlja <b>dr. Vinka Vukosav</b>.
-              </p>
               <p className={text}>
                 Reumatološki pregled podrazumijeva pregled doktora
                 specijalista reumatologije. U reumatološka oboljenja
@@ -119,39 +115,5 @@ const Imunologija = () => {
     </div>
   )
 }
-
-const titleList = ['pregled imunologa reumatologa']
-
-const text1 = (
-  <Fragment>
-    <p className={text}>
-      Imunološke preglede u našoj poliklinici obavlja{' '}
-      <b>dr. Vinka Vukosav</b>.
-    </p>
-    <ul className={ul}>
-      <li>Reumatoidni artritis</li>
-      <li>Artritis</li>
-      <li>FUO</li>
-      <li>Autoimune bolestu</li>
-    </ul>
-  </Fragment>
-)
-
-const text2 = (
-  <Fragment>
-    <p className={text}>
-      Reumatologija i imunologija su grane interne medicine koje se
-      bave reumatskim bolestima, njihovim uzrocima, dijagnosticiranjem
-      i liječenjem. Uzrok većine reumatskih bolesti je nejasan, ali se
-      povezuju s genetskom predispozicijom i vanjskim čimbenicima. U
-      većini slučajeva radi se o kroničnim bolestima koje osim sustava
-      kretanja zahvaćaju i unutarnje organe. Pregled kod specijalista
-      imunologije i reumatologije uključuje uzimanje anamneze
-      (razgovor od trenutnim i dosadašnjim tegobama, povijesti bolesti
-      u obitelji i samog bolesnika) uz klinički pregled. Temeljem
-      pregleda liječnik upućuje na daljnje pretrage.
-    </p>
-  </Fragment>
-)
 
 export default Imunologija

@@ -118,13 +118,13 @@ const Pregledi = () => {
               <h2 className={subtitle}>{uroloskiPregled.title}:</h2>
               <p className={text}>{uroloskiPregled.text}</p>
             </div>
-            <div className={content}>
+            {/* <div className={content}>
               <h2 className={subtitle}>IMUNOLOŠKI PREGLED:</h2>
               <p className={text}>
                 Imunološke i reumatološke preglede u našoj poliklinici
                 obavlja <b>dr. Vinka Vukosav</b>.
               </p>
-            </div>
+            </div> */}
             {/* <div className={content}>
               <h2 className={subtitle}>REUMATOLOŠKI PREGLED:</h2>
               <p className={text}>
