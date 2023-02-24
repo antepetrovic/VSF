@@ -63,8 +63,8 @@ const Home = () => {
               ],
               geo: {
                 '@type': 'GeoCoordinates',
-                latitude: '45.810003',
-                longitude: '15.953438'
+                latitude: '43.204243635271496',
+                longitude: '17.37081425255534'
               },
               openingHours: ['Po-Pe 10:00-22:00']
             })
