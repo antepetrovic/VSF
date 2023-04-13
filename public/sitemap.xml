@@ -85,12 +85,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poliklinikapetrovic.com/pretrage/evocirani-potencijali</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://poliklinikapetrovic.com/pretrage/holter-srca-i-tlaka</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -231,24 +225,6 @@
   <url>
     <loc>https://poliklinikapetrovic.com/neurokirurgija/pregled-neurokirurga</loc>
     <lastmod>2022-01-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://poliklinikapetrovic.com/pretrage/evocirani-potencijali/vidni-evocirani-potencijali</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-   <url>
-    <loc>https://poliklinikapetrovic.com/pretrage/evocirani-potencijali</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-   <url>
-    <loc>https://poliklinikapetrovic.com/pretrage/evocirani-potencijali/somatosenzorni</loc>
-    <lastmod>2022-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
