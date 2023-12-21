@@ -288,4 +288,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://poliklinikapetrovic.com/fizikalna-terapija/usmjerena-radiofrekvencijska-terapija</loc>
+    <lastmod>2023-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
