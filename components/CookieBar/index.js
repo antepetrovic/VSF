@@ -3,10 +3,12 @@ import {
   CookieWrapper,
   CookieContent,
   Text,
-  CloseButton
+  AcceptButton,
+  DenieButton,
+  Flex
 } from './Cookie.module.scss'
 
-const CookieBar = ({ handleSetCookie }) => {
+const CookieBar = ({ onAccept, onDeny }) => {
   return (
     <div className={CookieWrapper}>
       <div className={CookieContent}>
@@ -24,9 +26,22 @@ const CookieBar = ({ handleSetCookie }) => {
             </Link>
           </p>
         </div>
-        <button className={CloseButton} onClick={handleSetCookie}>
-          SLAŽEM SE
-        </button>
+        <div className={Flex}>
+          <button
+            id="consent-v2-accept"
+            className={AcceptButton}
+            onClick={onAccept}
+          >
+            DOPUSTI SVE
+          </button>
+          <button
+            id="consent-v2-denied"
+            className={DenieButton}
+            onClick={onDeny}
+          >
+            USKRATI
+          </button>
+        </div>
       </div>
     </div>
   )

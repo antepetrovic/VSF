@@ -9,27 +9,27 @@ import CookieBar from 'components/CookieBar'
 import { useCookies } from 'react-cookie'
 
 function MyApp({ Component, pageProps }) {
+  const [decisionMade, setDecisionMade] = useState(false) // start with true to avoid flashing
   const [cookies, setCookie] = useCookies()
-  const [showCookieBar, setShowCookieBar] = useState(false)
 
-  const handleSetCookie = () => {
-    const current = new Date()
-    const nextYear = new Date()
+  useEffect(() => {
+    if (cookies.CookieConsent !== undefined) {
+      setDecisionMade(true)
+    } else {
+      setDecisionMade(false)
+    }
+  }, [cookies, setDecisionMade])
 
-    setCookie('cookieStatement', true, {
+  const handleDecision = (outcome) => {
+    setCookie('CookieConsent', true, {
       expires: new Date(
-        nextYear.setFullYear(current.getFullYear() + 1)
+        new Date().setFullYear(new Date().getFullYear() + 1)
       ),
       path: '/'
     })
-    setShowCookieBar(false)
-  }
 
-  useEffect(() => {
-    if (!cookies.cookieStatement) {
-      setShowCookieBar(true)
-    }
-  }, [])
+    setDecisionMade(true)
+  }
 
   const router = useRouter()
 
@@ -58,8 +58,17 @@ function MyApp({ Component, pageProps }) {
       </MainHeader>
       <Component {...pageProps} />
       <Map />
-      {showCookieBar && (
-        <CookieBar handleSetCookie={handleSetCookie} />
+      {decisionMade ? (
+        <></>
+      ) : (
+        <CookieBar
+          onAccept={() => {
+            handleDecision()
+          }}
+          onDeny={() => {
+            handleDecision()
+          }}
+        />
       )}
     </>
   )
